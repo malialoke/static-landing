@@ -21,6 +21,9 @@
             width: 100%;
             text-align: center;
             padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         
         h1 {
@@ -32,6 +35,14 @@
             line-height: 1;
             white-space: nowrap;
             color: #d3d3d3; /* Light gray color */
+        }
+        
+        .tagline {
+            font-family: sans-serif;
+            font-size: 12pt;
+            color: #888888; /* Mid-range gray */
+            margin-top: -15px; /* Negative spacing to bring it closer to the main text */
+            letter-spacing: 2px; /* Increased spacing between letters */
         }
         
         /* Responsive styles for mobile and tablet */
@@ -51,6 +62,7 @@
 <body>
     <div class="container">
         <h1>mae<span class="lowercase">x</span><span class="break"></span>maya</h1>
+        <p class="tagline">still building something special...be here soon</p>
     </div>
 </body>
 </html>
