@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maeXmaya</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+        
+        .container {
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        h1 {
+            font-family: serif;
+            font-weight: normal;
+            font-size: 20vw;
+            margin: 0;
+            padding: 0;
+            line-height: 1;
+            white-space: nowrap;
+            color: #d3d3d3; /* Light gray color */
+        }
+        
+        /* Responsive styles for mobile and tablet */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 25vw;
+                white-space: normal;
+            }
+            
+            .break {
+                display: block;
+                margin-top: 5px; /* 5px line spacing as requested */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>mae<span class="lowercase">x</span><span class="break"></span>maya</h1>
+    </div>
+</body>
+</html>
